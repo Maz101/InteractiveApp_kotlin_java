@@ -1,0 +1,6 @@
+<resources>
+    <string name="realm_app_id">application-0-xpuot</string>
+    <string name="realm_app_url">https://realm.mongodb.com/groups/615a1847385fa41f2c37c3a7/apps/61e73543a86ade75e0085bde</string>
+    <string name="realm_base_url">https://realm.mongodb.com</string>
+    <string name="realm_data_source_name">mongodb-atlas</string>
+</resources>

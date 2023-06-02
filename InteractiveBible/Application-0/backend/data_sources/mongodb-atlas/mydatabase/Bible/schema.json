@@ -1,0 +1,42 @@
+{
+    "properties": {
+        "Book": {
+            "bsonType": "string"
+        },
+        "Chapters": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "_id": {
+                        "bsonType": "objectId"
+                    },
+                    "number": {
+                        "bsonType": "int"
+                    },
+                    "verses": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "object",
+                            "properties": {
+                                "_id": {
+                                    "bsonType": "objectId"
+                                },
+                                "verse_element": {
+                                    "bsonType": "string"
+                                },
+                                "verse_number": {
+                                    "bsonType": "int"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "_id": {
+            "bsonType": "int"
+        }
+    },
+    "title": "Bible"
+}

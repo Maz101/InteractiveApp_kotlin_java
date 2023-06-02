@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="Widget.Theme.InteractiveBible.ButtonBar.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="CustomTabStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TabLayoutTextAppearace" parent ="TextAppearance.Design.Tab">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="android:fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="button_two" parent="@android:style/Widget.Button">
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+</resources>

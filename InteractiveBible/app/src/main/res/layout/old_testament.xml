@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Genesis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/genesis"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Exodus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Genesis"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/exodus"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Leviticus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Exodus"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/leviticus"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Leviticus"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/numbers"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Deutronomy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Numbers"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/deuteronomy"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Joshua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Deutronomy"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/joshua"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Judges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Joshua"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/judges"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Ruth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Judges"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/ruth"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Samuel_One"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ruth"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/_1_samuel"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Samuel_Two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Samuel_One"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/_2_samuel"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Kings_One"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Samuel_Two"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/_1_kings"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Kings_Two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Kings_One"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/_2_kings"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Chronicles_One"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Kings_Two"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/_1_chronicles"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Chronicles_Two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Chronicles_One"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/_2_chronicles"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Ezra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Chronicles_Two"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/ezra"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Nehemiah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ezra"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/nehemiah"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Esther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nehemiah"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/esther"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/Job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Esther"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/job"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+    </Button>
+
+
+    <Button
+        android:id="@+id/Psalms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Job"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/psalms"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF">
+    </Button>
+
+    <Button
+        android:id="@+id/Proverbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Psalms"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/proverbs"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Ecclesiastes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Proverbs"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/ecclesiastes"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Song_of_songs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ecclesiastes"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/song_of_songs"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Isaiah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Song_of_songs"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/isaiah"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Jeremiah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Isaiah"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/jeremiah"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Lamentations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Jeremiah"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/lamentations"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Ezekiel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Lamentations"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/ezekiel"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Daniel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ezekiel"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/daniel"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+    </Button>
+
+    <Button
+        android:id="@+id/Hosea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Daniel"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/hosea"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Joel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Hosea"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/joel"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Amos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Joel"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/amos"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Obadiah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Amos"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/obadiah"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Jonah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Obadiah"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/jonah"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Micah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Jonah"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/micah"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Nahum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Micah"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/nahum"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Habbakkuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nahum"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/habbakkuk"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Zephaniah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Habbakkuk"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/zephaniah"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#FFFFFF">
+    </Button>
+
+    <Button
+        android:id="@+id/Haggai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Zephaniah"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/haggai"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Zechariah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Haggai"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/zechariah"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF">
+    </Button>
+
+    <Button
+        android:id="@+id/Malachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Zechariah"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/malachi"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        app:backgroundTint="#FFFFFF">
+
+    </Button>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+

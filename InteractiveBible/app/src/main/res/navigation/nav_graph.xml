@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bookNamesFragment">
+    <fragment
+        android:id="@+id/bookNamesFragment"
+        android:name="com.example.interactivebible.reading.BookNamesFragment"
+        android:label="fragment_book_names"
+        tools:layout="@layout/fragment_book_names" >
+        <action
+            android:id="@+id/action_bookNamesFragment_to_chapterFragment"
+            app:destination="@id/chapterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chapterFragment"
+        android:name="com.example.interactivebible.reading.ChapterFragment"
+        android:label="fragment_chapter"
+        tools:layout="@layout/fragment_chapter" >
+        <action
+            android:id="@+id/action_chapterFragment_to_verseFragment"
+            app:destination="@id/verseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verseFragment"
+        android:name="com.example.interactivebible.reading.VerseFragment"
+        android:label="fragment_verse"
+        tools:layout="@layout/fragment_verse" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "968940237787",
+    "project_id": "interactbible",
+    "storage_bucket": "interactbible.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968940237787:android:dad359097029ccaad02dfe",
+        "android_client_info": {
+          "package_name": "com.example.interactivebible"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968940237787-2en2edk18re8ht4q75tv4lj3pl3d83j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADHnWhP-BrT51Bvrqy69puYIXr4rlIybw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968940237787-2en2edk18re8ht4q75tv4lj3pl3d83j1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
